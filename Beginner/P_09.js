@@ -21,3 +21,9 @@ const nearestTo100 = (num1,num2) => {
 console.log(nearestTo100(69,87));
 console.log(nearestTo100(154,46));
 console.log(nearestTo100(154,45));
+
+// Alternative
+
+const nearestTo100Alt = (num1,num2) => (100 - num1) > (100 - num2) ? num1 : num2;
+
+console.log(nearestTo100Alt(69,87));
