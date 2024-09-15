@@ -10,4 +10,4 @@ const newStr = (str) => {if (str.indexOf("New!") === 0) {
 }}
 
 console.log(newStr("Hola"));
-console.log(newStr("New! Hola"));
+// console.log(newStr("New! Hola"));
