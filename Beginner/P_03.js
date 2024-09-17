@@ -18,9 +18,7 @@ const idk = (str) => str.split("")
     .map(char => {
         if (char !== "z") {
             return String.fromCharCode(char.charCodeAt(0) + 1)
-        } else {
-            return "a"
-        }
+        } return "a"
     }).join("")
 
 console.log(idk("abz"));

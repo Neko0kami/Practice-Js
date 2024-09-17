@@ -1,13 +1,12 @@
 /* WAP to check two numbers and return true if the sum of the two numebers is 100*/
 
-const sumIs100 = function (a, b) {
-    if (a + b === 100) {
-        return true
-    } else {
-        return false
+const sumIs100 = (a, b) => {
+        if (a + b === 100) {
+            return true;
+        } return false;
     }
 
-}
+
 
 const equal100 = (a,b) => (a === 100 || b === 100);
 

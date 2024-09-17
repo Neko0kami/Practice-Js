@@ -4,7 +4,7 @@ Expected output: dd/mm/yyy , mm/dd/yyy or dd-mm-yyy , mm-dd-yyy
 */
 
 
-let date = new Date()
+const date = new Date()
 
 console.log(date.toDateString());
 console.log(date.toLocaleDateString());
